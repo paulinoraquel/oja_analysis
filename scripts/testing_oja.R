@@ -1,7 +1,7 @@
 library(wihoja)
 
 
-oja <- query_athena(" select * from estat_dsl2531b_oja.ft_document_en_V8 limit 10")
+oja <- query_athena(" select * from estat_dsl2531b_oja.ft_document_en_V5 limit 10")
 
 company_name_lu <- query_athena(" select companyname from estat_dsl2531b_oja.ft_document_en_V8 where idcountry='LU' limit 1000")
 
